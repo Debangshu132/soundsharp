@@ -38,7 +38,7 @@ function createWindow () {
       contextIsolation: false
     },
     skipTaskbar: true,
-    resizable:true,
+    //resizable:true,
     frame: false,
     show:false
   })
@@ -46,7 +46,7 @@ function createWindow () {
   mainWindow.on('blur',()=>{
     mainWindow.hide();
   })
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
