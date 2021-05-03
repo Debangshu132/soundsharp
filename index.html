@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/assets/style.css">
+  </head>
+  <body>
+    <nav class="navbar  navbar-custom">
+      <h3 class="navbar-brand" >Sound Sharp</h3>
+    </nav>
+
+    <div class="custom-control custom-switch custom-switch-md">
+      <input type="checkbox" class="custom-control-input" id="customSwitch4"  checked>
+      <label class="custom-control-label" for="customSwitch4">Cancel Noise</label>
+    </div>
+   
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+
+    
+  </body>
+</html>
