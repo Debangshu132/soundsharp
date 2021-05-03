@@ -32,6 +32,24 @@ http.send(params);
 
 
 }, 3000);
+// setTimeout(function(){ 
+    
+//     console.log('delay')
+//     var http = new XMLHttpRequest();
+//     var url = 'http://localhost:5005/noise_rv';
+//     var params = 'orem=ipsum&name=binny';
+//     http.open('GET', url, true);
+//     //Send the proper header information along with the request
+//     http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+//     http.onreadystatechange = function() {//Call a function when the state changes.
+//     if(http.readyState == 4 && http.status == 200) {
+//         console.log('back init',http.responseText);
+//     }
+// }
+// http.send(params);
+
+
+// }, 3000);
 
 function toggleNoise(){
     //ipc.send('noise','off');
